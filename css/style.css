@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
   width:100%; /* IE */
   max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -124,6 +124,7 @@ iframe {
 .border_right {
   border-right: 1px dotted #ccc;
   padding-right: 20px;
+  width: 100%;
 }
 
 .thumbs_up {
@@ -132,6 +133,29 @@ iframe {
 
 .contact_form {
   height: 415px;
+}
+
+.col-1 {
+  width: 28%;
+  float: left;
+  margin: 10px;
+}
+.col-2 {
+  width: 33%;
+  float: left;
+  margin: 10px;
+  overflow: auto;
+  max-height: 501px;
+}
+.col-3 {
+  width: 29%;
+  float: right;
+  margin: 10px;
+}
+.col-4 {
+  width: 60%;
+  float: left;
+  margin: 10px;
 }
 
 /********** Header **********/
